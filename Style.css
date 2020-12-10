@@ -1,0 +1,292 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+
+body
+{
+    margin: 20px;
+}
+
+.header-full {
+    background-image: url('Yellow Concert Image.jpg');
+    background-size: cover;
+    background-position-x: center;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.header-full h1 {
+    font-family: 'East Sea Dokdo', cursiv0e;
+    text-align: center;
+    font-size: 9em;
+    letter-spacing: .3em;
+    position: relative;
+    left: .3em;
+}
+
+.header-full:hover {
+    animation-name: back;
+    animation-duration: 4s;
+}
+
+.section-headers a {
+    padding: 0;
+}
+/*p:hover {
+    color: white;
+    cursor: pointer;
+    background-color: #FFE700;
+    background-size: 100%;
+    border-radius: 10px;
+    margin-left: 0em;
+    margin-right: 0em;
+    padding-left: 2em;
+    padding-right: 2em;
+    transition: padding-right .5s, padding-left .5s, margin-left .5s, margin-right.5s;
+}
+
+p {
+    color: rgb(40,40,40);
+    font-size: 2em;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    transition: padding-right .5s, padding-left .5s, background-color .2s, margin-left .5s, margin-right .5s;
+    transition-delay: 0s, 0s, .5s;
+}*/
+
+.large-header {
+    color: rgb(40,40,40);
+    font-size: 2em;
+    display: inline-block;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-image: url('yellow.jpg');
+    background-size: 0px 69px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    transition: background-size .5s, color .5s;
+}
+
+    /*Middle Size = 391px 69px*/
+
+.large-header:hover {
+    color: white;
+    font-size: 2em;
+    display: inline-block;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-image: url('yellow.jpg');
+    background-size: 391px 69px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    transition: background-size .5s, color .5s;
+}
+
+.small-headers {
+    color: rgb(40,40,40);
+    font-size: 2em;
+    display: inline-block;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-image: url('yellow.jpg');
+    background-size: 0px 69px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    transition: background-size .5s, color .5s;
+}
+
+/*Middle Size = 391px 69px*/
+
+.small-headers:hover {
+    color: white;
+    font-size: 2em;
+    display: inline-block;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-image: url('yellow.jpg');
+    background-size: 218px 69px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    transition: background-size .5s, color .5s;
+}
+
+.section-headers {
+    padding: 0;
+}
+
+div {
+    text-align: center;
+}
+
+@keyframes lift {
+    From {position: relative;
+          bottom: 0px;
+    }
+    to {position: relative;
+        bottom: 20px;
+    }
+}
+
+.music-header {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 4em;
+    font-family: 'East Sea Dokdo', cursiv0e;
+    letter-spacing: 20px;
+}
+
+.Music
+
+p {
+    font-size: medium;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.Music {
+    background-color: #FF86BE ;
+}
+
+div {
+    padding-bottom: 1em;
+}
+
+a {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+/* img:hover {
+    outline: 150px solid rgba(255,255,255,.5) !important;
+    outline-offset: -200px;
+    overflow: hidden;
+    animation-name: lift;
+    animation-duration: .5s;
+    animation-fill-mode: both;
+} */
+
+.imgs {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    box-shadow: rgba(40,40,40,.2) 0px 0px;
+    transition: bottom .5s, left .5s, outline .5s, box-shadow .5s;
+}
+
+.imgs:hover {
+        position: relative;
+        bottom: 20px;
+        left: 10px;
+        box-shadow: rgba(40,40,40,.2) -10px 20px;
+        transition: bottom .5s, left .5s, outline .5s, box-shadow .5s;
+    }
+
+.imgs {
+    outline: 150px solid rgba(255,255,255,.0) !important;
+    outline-offset: -200px;
+    overflow: hidden;
+}
+
+.imgs:hover {
+        outline: 150px solid rgba(255,255,255,.2) !important;
+        outline-offset: -200px;
+        overflow: hidden;
+    }
+
+.btm {
+    background-color: #7882FF;
+    background-image: url('White Concert Image.jpg');
+    background-size: cover;
+    background-position-y: center;
+    background-blend-mode: multiply;
+    padding-top: 0px;
+    padding-bottom: 80px;
+}
+
+h3 {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 4em;
+    font-family: 'East Sea Dokdo', cursiv0e;
+    letter-spacing: 20px;
+}
+
+.btm p {
+    text-indent: 40px;
+    font-size: medium;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    max-width: 925px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width 925px;
+}
+
+.mr-post {
+    background-color: #83FFB2;
+    background-image: url(swirly-background-2.png);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.mr-post img {
+    float: left;
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+    top: 0px;
+}
+
+.mr-content {
+    text-align: right;
+}
+
+.mr-links {
+    padding-top: 1px;
+    padding-bottom: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mr-links h2 {
+    font-size: 3em;
+    color: rgb(40,40,40);
+    transition: color .2s;
+}
+
+.mr-links a {
+    text-decoration: none;
+}
+
+.mr-links h2:hover {
+    color: rgba(40,40,40,.5);
+    transition: color .2s;
+}
+
+.mr-header h3 {
+    color: rgb(40,40,40);
+}
